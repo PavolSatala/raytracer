@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" vertBodyHeight="801" horzMiddleBodyHeight="374" horzRightBodyWidth="499" vertOutputWidth="960" name="RayTracer" outputDir="$(workspace_dir)/output" tag="0" signapp="false" showLeftPane="true" showRightPane="true" showBottomPane="true" selectedProject="/Users/oxy/Work/moscrif-apps/raytracer/RayTracer.msp" showalllibs="false" selectedResolution="/Applications/MoscrifIDE.app/Contents/Resources/cfg/displays/noskin_xga.ini" selectedDevices="100">
+  <projects>
+    <project>./RayTracer.msp</project>
+  </projects>
+  <opened>
+    <file>StartPage</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/main.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/camera.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/color.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/object.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/plane.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/raytracer.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/sphere.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/surfaces.ms</file>
+    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/vector.ms</file>
+  </opened>
+</Workspace>
