@@ -2,6 +2,7 @@
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" includeAllResolution="false" applicationType="application" projectOutput="$(workspace_dir)/output" facebookAppID="" projectArtefact="RayTracer_$(Platform)_$(Resolution)" appFile="./RayTracer.app">
   <conditionDefines />
   <NewSkin>true</NewSkin>
+  <publishTyp>0</publishTyp>
   <fileProperties>
     <property path="./RayTracer/Icon&#xD;" isDirectory="false" excluded="false">
       <conditions />
