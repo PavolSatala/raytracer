@@ -4,6 +4,7 @@ include "app://object.ms";
 include "app://sphere.ms";
 include "app://plane.ms";
 include "app://surfaces.ms";
+include "app://color.ms";
 
 // original: http://typescript.codeplex.com/SourceControl/changeset/view/fe3bc0bfce1f#samples%2fraytracer%2fraytracer.ts
 
@@ -11,7 +12,7 @@ class RayTracer
 {
     const maxDepth = 5;
 
-    function intersections(ray, scene)
+    /*function intersections(ray, scene)
     {
         var closest = Float.MAX;
         var closestInter = undefined;
@@ -47,14 +48,14 @@ class RayTracer
                                       this.getNaturalColor(isect.thing, pos, normal, reflectDir, scene));
         var reflectedColor = (depth >= this.maxDepth) ? Color.grey : this.getReflectionColor(isect.thing, pos, normal, reflectDir, scene, depth);
         return Color.plus(naturalColor, reflectedColor);
-    }
+    }*/
 
-    function getReflectionColor(thing, pos, normal, rd, scene, depth)
+    /*function getReflectionColor(thing, pos, normal, rd, scene, depth)
     {
         return Color.scale(thing.surface.reflect(pos), this.traceRay({ start: pos, dir: rd }, scene, depth + 1));
     }
-
-    function getNaturalColor(thing, pos, norm, rd, scene)
+*/
+   /* function getNaturalColor(thing, pos, norm, rd, scene)
     {
         var addLight = :col, light {
             var ldis = Vector.minus(light.pos, pos);
@@ -73,28 +74,51 @@ class RayTracer
             }
         }
         return scene.lights.reduce(addLight, Color.defaultColor);
-    }
+    }*/
 
     function render(scene, bmp)
     {
         var width = bmp.width;
         var height = bmp.height;
-        var canvas = Canvas.fromBitmap(bmp);
-        var getPoint = :x, y, camera {
-            var recenterX = :x { return (x - (width / 2.0)) / 2.0 / width };
-            var recenterY = :y { return - (y - (height / 2.0)) / 2.0 / height };
-            return Vector.norm(Vector.plus(camera.forward, Vector.plus(Vector.times(recenterX(x), camera.right), Vector.times(recenterY(y), camera.up))));
-        }
-        for (var y = 0; y < height; y++) {
+
+       this.traceThread(width, height, bmp);/*{ start: scene.camera.pos, dir: getPoint(0, 0, scene.camera) }, scene, 0*///);
+      /*  for (var y = 0; y < height; y++) {
             console << y << "/" << height << "\n";
             for (var x = 0; x < width; x++) {
-                var color = this.traceRay({ start: scene.camera.pos, dir: getPoint(x, y, scene.camera) }, scene, 0);
+
+            }
+        }*/
+    }
+
+    function traceThread(width, height, bmp, x = 0, y = 0) {
+        console<<"starting "<<x<<" "<<y<<"\n";
+
+        System.exec({
+            command:"thread",
+            file:"app://traceThread.txt",
+            input:String.printf("%V", {x : x, y : y, width : width, height : height}),
+            callback: function(output) {
+                console<<"output "<<output<<"\n";
+                console<<"rendering "<<x<<" "<<y<<"\n";
+                var canvas = Canvas.fromBitmap(bmp);
+                var args = parseData(output);
+                var color = args.color;
+                console<<color<<"\n";
                 var c = Color.toDrawingColor(color);
                 var paint = new Paint();
                 paint.color = 0xff000000 | (c.r << 16) | (c.g << 8) | c.b;
-                canvas.drawRect(x, y, x + 1, y + 1, paint);
+                canvas.drawRect(args.x, args.y, args.x + 1, args.y + 1, paint);
+                args.y += 1;
+                if (args.y > height) {
+                    args.x += 1;
+                    args.y = 0;
+                    if (args.x > System.width)
+                        return;
+                }
+                traceThread(width, height, bmp, args.x, args.y )
+
             }
-        }
+        })
     }
 }
 

@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" fileExplorerPath="/Users/oxy/Work/moscrif-apps/raytracer" vertBodyHeight="672" horzMiddleBodyHeight="374" horzRightBodyWidth="531" vertOutputWidth="960" name="RayTracer" outputDir="$(workspace_dir)/output" tag="0" signapp="false" showLeftPane="true" showRightPane="true" showBottomPane="true" selectedProject="/Users/oxy/Work/moscrif-apps/raytracer/RayTracer.msp" showalllibs="false" selectedResolution="/Applications/MoscrifIDE.app/Contents/Resources/cfg/displays/noskin_xga.ini" selectedDevices="100">
+<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" vertBodyHeight="413" horzMiddleBodyHeight="200" horzRightBodyWidth="276" vertOutputWidth="683" name="raytracer" outputDir="$(workspace_dir)\output" tag="0" signapp="false" showLeftPane="true" showRightPane="true" showBottomPane="true" selectedProject="C:\Users\palo\Documents\GitHub\raytracer\RayTracer.msp" showalllibs="false" selectedResolution="C:\MoscrifSDK\cfg\displays\noskin_hvga.ini" selectedDevices="100">
   <projects>
-    <project>./RayTracer.msp</project>
+    <project>.\RayTracer.msp</project>
   </projects>
   <opened>
     <file>StartPage</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/main.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/camera.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/color.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/object.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/plane.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/raytracer.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/sphere.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/surfaces.ms</file>
-    <file>/Users/oxy/Work/moscrif-apps/raytracer/RayTracer/vector.ms</file>
+    <file>C:\Users\palo\Documents\GitHub\raytracer\RayTracer\raytracer.ms</file>
+    <file>C:\Users\palo\Documents\GitHub\raytracer\RayTracer\traceThread.txt</file>
+    <file>C:\Users\palo\Documents\GitHub\raytracer\RayTracer\vector.ms</file>
+    <file>C:\Users\palo\Documents\GitHub\raytracer\RayTracer\color.ms</file>
+    <file>C:\Users\palo\Documents\GitHub\raytracer\RayTracer\plane.ms</file>
+    <file>C:\Users\palo\Documents\GitHub\raytracer\RayTracer\main.ms</file>
+    <file>C:\Users\palo\Documents\GitHub\raytracer\RayTracer\surfaces.ms</file>
   </opened>
 </Workspace>

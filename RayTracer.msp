@@ -40,6 +40,12 @@
     <property path="./RayTracer/surfaces.ms" isDirectory="false" excluded="false">
       <conditions />
     </property>
+    <property path=".\RayTracer\traceThread.ms" isDirectory="false" excluded="false">
+      <conditions />
+    </property>
+    <property path=".\RayTracer\traceThread.txt" isDirectory="false" excluded="false">
+      <conditions />
+    </property>
   </fileProperties>
   <devices>
     <device targetPlatform="100">

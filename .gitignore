@@ -1,14 +1,3 @@
 *.msc
 link*.sh
 link*.bat
-*.user
-
-core
-
-game2d
-
-graphics
-
-ui
-
-uix

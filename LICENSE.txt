@@ -1,4 +1,4 @@
-Copyright (c) 2012, Jozef Pridavok
+Copyright (c) 2012, Moscrif
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
