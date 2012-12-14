@@ -1,12 +1,136 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WorkspaceUserFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <filesSetting>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer\vector.ms">
+      <foldings>
+        <folding value="False" display="14" />
+        <folding value="False" display="49" />
+        <folding value="False" display="154" />
+        <folding value="False" display="253" />
+        <folding value="False" display="363" />
+        <folding value="False" display="472" />
+        <folding value="False" display="566" />
+        <folding value="False" display="666" />
+        <folding value="False" display="838" />
+      </foldings>
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer\color.ms">
+      <foldings>
+        <folding value="False" display="13" />
+        <folding value="False" display="50" />
+        <folding value="False" display="155" />
+        <folding value="False" display="252" />
+        <folding value="False" display="362" />
+        <folding value="False" display="476" />
+        <folding value="False" display="505" />
+        <folding value="False" display="547" />
+      </foldings>
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer\plane.ms">
+      <foldings>
+        <folding value="False" display="50" />
+        <folding value="False" display="99" />
+        <folding value="False" display="232" />
+        <folding value="False" display="304" />
+        <folding value="False" display="409" />
+        <folding value="False" display="453" />
+        <folding value="False" display="555" />
+      </foldings>
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer\surfaces.ms">
+      <foldings>
+        <folding value="False" display="21" />
+        <folding value="False" display="40" />
+        <folding value="False" display="74" />
+        <folding value="False" display="132" />
+        <folding value="False" display="188" />
+        <folding value="False" display="261" />
+        <folding value="False" display="295" />
+        <folding value="False" display="480" />
+        <folding value="False" display="537" />
+        <folding value="False" display="607" />
+        <folding value="False" display="658" />
+      </foldings>
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer.app">
+      <foldings />
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer\traceThread.txt">
+      <foldings>
+        <folding value="False" display="256" />
+        <folding value="False" display="270" />
+        <folding value="False" display="534" />
+        <folding value="False" display="625" />
+        <folding value="False" display="715" />
+        <folding value="False" display="807" />
+        <folding value="False" display="1006" />
+        <folding value="False" display="1032" />
+        <folding value="False" display="1112" />
+        <folding value="False" display="1389" />
+        <folding value="False" display="1525" />
+        <folding value="False" display="1685" />
+        <folding value="False" display="1818" />
+        <folding value="False" display="1922" />
+        <folding value="False" display="2035" />
+        <folding value="False" display="2198" />
+        <folding value="False" display="2860" />
+        <folding value="False" display="2924" />
+        <folding value="False" display="3030" />
+        <folding value="False" display="3064" />
+        <folding value="False" display="3200" />
+        <folding value="False" display="3341" />
+        <folding value="False" display="3384" />
+        <folding value="False" display="4126" />
+      </foldings>
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\Project5\thread.ms">
+      <foldings>
+        <folding value="False" display="66" />
+        <folding value="False" display="86" />
+      </foldings>
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\Project5\main.ms">
+      <foldings>
+        <folding value="False" display="132" />
+        <folding value="False" display="180" />
+        <folding value="False" display="202" />
+        <folding value="False" display="341" />
+        <folding value="False" display="428" />
+        <folding value="False" display="616" />
+        <folding value="False" display="875" />
+        <folding value="False" display="1066" />
+        <folding value="False" display="1179" />
+        <folding value="False" display="1251" />
+      </foldings>
+      <bookmarks2 />
+    </file>
+    <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer\raytracer.ms">
+      <foldings>
+        <folding value="False" display="338" />
+        <folding value="False" display="431" />
+        <folding value="False" display="614" />
+        <folding value="False" display="636" />
+        <folding value="False" display="747" />
+        <folding value="False" display="835" />
+        <folding value="False" display="1291" />
+        <folding value="False" display="1398" />
+      </foldings>
+      <bookmarks2 />
+    </file>
     <file filePath="C:\Users\palo\Documents\GitHub\raytracer\RayTracer\main.ms">
       <foldings>
-        <folding value="False" display="119" />
-        <folding value="False" display="150" />
-        <folding value="False" display="244" />
-        <folding value="False" display="475" />
+        <folding value="False" display="117" />
+        <folding value="False" display="148" />
+        <folding value="False" display="242" />
+        <folding value="False" display="469" />
+        <folding value="False" display="673" />
       </foldings>
       <bookmarks2 />
     </file>

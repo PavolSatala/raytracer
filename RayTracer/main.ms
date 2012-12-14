@@ -16,6 +16,7 @@ class RayGame : Game
     {
         canvas.clear(0xffffffff);
         canvas.drawBitmap(this._bitmap, (System.width - this._bitmap.width) / 2, (System.height - this._bitmap.height) / 2);
+
         super.draw(canvas);
     }
 
@@ -24,14 +25,8 @@ class RayGame : Game
         var size = Integer.min(System.width, System.height) / 5;
         this._bitmap = Bitmap.fromRect(size, size);
         var rayTracer = new RayTracer();
-        return rayTracer.render(0, this._bitmap); //System.width, System.height);
+        return rayTracer.render(0, this._bitmap);
     }
-
-    function process()
-    {
-        console<<System.tick<<"\n";
-    }
-
 }
 
 new RayGame().run();
